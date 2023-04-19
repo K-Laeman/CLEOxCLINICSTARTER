@@ -20,22 +20,22 @@ function Content() {
         <div className="flex flex-col items-center h-full">
             <div className="flex flex-col items-center h-full">
                 <div className="flex flex-col items-center h-full">
-                    <label className='font-[400] text-[48px] text-[#FF0070] text-center leading-[76px]'>คุณสมบัติของคลินิกความงาม</label>
-                    <label className='font-[400] text-[24px] text-[#000000] text-center leading-[38px]'>ที่มีสิทธิ์ได้รับการเสนอชื่อและรับรางวัลในแต่ละสาขา</label>
+                    <label className='font-[400] text-[28px] lg:text-[48px] text-[#FF0070] text-center leading-[76px]'>คุณสมบัติของคลินิกความงาม</label>
+                    <label className='font-[400] text-[14px] lg:text-[24px] text-[#000000] text-center leading-[19px] lg:leading-[38px]'>ที่มีสิทธิ์ได้รับการเสนอชื่อและรับรางวัลในแต่ละสาขา</label>
                 </div>
                 <div className='flex justify-center mt-[35px] mb-[48.5px] items-center'>
                     <div className='flex w-[150px] border-[1px] border-solid border-[#FF0070]'></div>
                     <div className='flex w-[17px] h-[17px] bg-[#FF0070] mx-[20.5px] rotate-45'></div>
                     <div className='flex w-[150px] border-[1px] border-solid border-[#FF0070]'></div>
                 </div>
-                <div className='grid grid-cols-1 gap-y-[25px] mb-[131px]'>
+                <div className='flex flex-col items-center lg:items-start lg:grid lg:grid-cols-1 gap-y-[25px] mb-[90px] lg:mb-[131px]'>
                 {content01.map((item) => (
-                    <div key={item.title} className='flex items-center bg-[#fff] w-[834px] h-full px-[24px]  rounded-[20px] shadow-[0px_4px_20px_5px_rgba(255,0,112,0.3)]'>
-                        <div className='flex items-center w-[50px] h-full ml-[20px] mr-[45px]'>
-                            <label className='font-staatliches font-[400] text-[96px] text-[#FF0070] text-center leading-[120px]'>{item.num}</label>
+                    <div key={item.title} className='flex items-center bg-[#fff] w-full lg:w-[834px] h-full px-2 lg:px-[24px]  rounded-[20px] shadow-[0px_4px_20px_5px_rgba(255,0,112,0.3)]'>
+                        <div className='flex items-center w-[50px] h-full ml-[10px] lg:ml-[20px] mr-[5px] lg:mr-[45px]'>
+                            <label className='font-staatliches font-[400] text-[52px] lg:text-[96px] text-[#FF0070] text-center leading-[120px]'>{item.num}</label>
                         </div>
-                        <div className='flex items-center w-[680px] py-5'>
-                            <label className='font-[400] text-[24px] text-[#000000] leading-[38px] '>{item.title}</label>
+                        <div className='flex items-center w-full lg:w-[680px] py-1 lg:py-5'>
+                            <label className='font-[400] text-[14px] lg:text-[24px] text-[#000000]  leading-[19px] lg:leading-[38px] '>{item.title}</label>
                         </div>
                     </div>
                 ))}
@@ -43,21 +43,21 @@ function Content() {
             </div>
             <div className="flex flex-col items-center h-full">
                 <div className="flex flex-col items-center h-full">
-                    <label className='font-[400] text-[48px] text-[#FF0070] text-center leading-[76px]'>ขั้นตอนการคัดเลือกและรับรางวัล</label>
+                    <label className='font-[400] text-[28px] lg:text-[48px] text-[#FF0070] text-center leading-[38px] lg:leading-[76px]'>ขั้นตอนการคัดเลือกและรับรางวัล</label>
                 </div>
                 <div className='flex justify-center mt-[25px] mb-[37.5px] items-center'>
                     <div className='flex w-[150px] border-[1px] border-solid border-[#FF0070]'></div>
                     <div className='flex w-[17px] h-[17px] bg-[#FF0070] mx-[20.5px] rotate-45'></div>
                     <div className='flex w-[150px] border-[1px] border-solid border-[#FF0070]'></div>
                 </div>
-                <div className='grid grid-cols-1 gap-y-[25px] mb-[131px]'>
+                <div className='flex flex-col items-center lg:items-start lg:grid lg:grid-cols-1 gap-y-[25px] mb-[90px] lg:mb-[131px]'>
                 {content02.map((item) => (
-                    <div key={item.title} className='flex items-center bg-[#fff] w-[834px] h-full px-[24px]  rounded-[20px] shadow-[0px_4px_20px_5px_rgba(255,0,112,0.3)]'>
-                        <div className='flex items-center w-[50px] h-full ml-[20px] mr-[45px]'>
-                            <label className='font-staatliches font-[400] text-[96px] text-[#FF0070] text-center leading-[120px]'>{item.num}</label>
+                    <div key={item.title} className='flex items-center bg-[#fff] w-full lg:w-[834px] h-full px-2 lg:px-[24px]  rounded-[20px] shadow-[0px_4px_20px_5px_rgba(255,0,112,0.3)]'>
+                        <div className='flex items-center w-[50px] h-full ml-[10px] lg:ml-[20px] mr-[5px] lg:mr-[45px]'>
+                            <label className='font-staatliches font-[400] text-[52px] lg:text-[96px] text-[#FF0070] text-center leading-[120px]'>{item.num}</label>
                         </div>
-                        <div className='flex items-center w-[680px] py-5'>
-                            <label className='font-[400] text-[24px] text-[#000000] leading-[38px]'>{item.title}</label>
+                        <div className='flex items-center w-full lg:w-[680px] py-1 lg:py-5'>
+                            <label className='font-[400] text-[14px] lg:text-[24px] text-[#000000]  leading-[19px] lg:leading-[38px] '>{item.title}</label>
                         </div>
                     </div>
                 ))}
@@ -65,7 +65,7 @@ function Content() {
             </div>
             <div className="flex flex-col items-center h-full">
                 <div className="flex flex-col items-center h-full">
-                    <label className='font-[400] text-[48px] text-[#FF0070] text-center leading-[76px]'>สุดยอดคลินิกความงามที่ได้รับรางวัล</label>
+                    <label className='font-[400] text-[28px] lg:text-[48px] text-[#FF0070] text-center leading-[38px] lg:leading-[76px]'>สุดยอดคลินิกความงามที่ได้รับรางวัล</label>
                 </div>
                 <div className='flex justify-center mt-[25px] mb-[37.5px] items-center'>
                     <div className='flex w-[150px] border-[1px] border-solid border-[#FF0070]'></div>
@@ -73,7 +73,7 @@ function Content() {
                     <div className='flex w-[150px] border-[1px] border-solid border-[#FF0070]'></div>
                 </div>
                 <div className='flex justify-center mb-[131px]'>
-                  <p className='font-[400] text-[24px] text-[#000000] text-center leading-[42px]'>
+                  <p className='font-[400] text-[14px] lg:text-[24px] text-[#000000] text-center leading-[21px] lg:leading-[42px]'>
                     จะได้รับการแนะนำให้กับผู้อ่านของคลีโอบนเว็บไชต์ พร้อมรับโล่รางวัล<br/>
                     และประกาศนียบัตร รวมถึงข้อตกลงในการนำเสนอบทความ บทสัมภาษณ์<br/>
                     และคลิปวิดีโอต่างๆลงในเว็บไซต์ของคลีโอ และข้อตกลงในการได้รับคัดเลือกให้อยู่ใน CLEO Magazine ฉบับพิเศษ<br/>

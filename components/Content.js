@@ -72,7 +72,7 @@ function Content() {
                     <div className='flex w-[17px] h-[17px] bg-[#FF0070] mx-[20.5px] rotate-45'></div>
                     <div className='flex w-[150px] border-[1px] border-solid border-[#FF0070]'></div>
                 </div>
-                <div className='flex justify-center mb-[131px]'>
+                <div className='flex justify-center mb-[75px] lg:mb-[131px]'>
                   <p className='font-[400] text-[14px] lg:text-[24px] text-[#000000] text-center leading-[21px] lg:leading-[42px]'>
                     จะได้รับการแนะนำให้กับผู้อ่านของคลีโอบนเว็บไชต์ พร้อมรับโล่รางวัล<br/>
                     และประกาศนียบัตร รวมถึงข้อตกลงในการนำเสนอบทความ บทสัมภาษณ์<br/>

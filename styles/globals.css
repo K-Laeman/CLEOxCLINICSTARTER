@@ -13,7 +13,7 @@
   background-image: url('../components/Images/BG.jpg');
   background-color: #ffff;
   background-position: center;
-  mix-blend-mode: multiply;
+  background-size: auto;
   
 }
 .font-staatliches{

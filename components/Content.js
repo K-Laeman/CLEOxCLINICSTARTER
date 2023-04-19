@@ -30,11 +30,11 @@ function Content() {
                 </div>
                 <div className='flex flex-col items-center lg:items-start lg:grid lg:grid-cols-1 gap-y-[25px] mb-[90px] lg:mb-[131px]'>
                 {content01.map((item) => (
-                    <div key={item.title} className='flex items-center bg-[#fff] w-full lg:w-[834px] h-full px-2 lg:px-[24px]  rounded-[20px] shadow-[0px_4px_20px_5px_rgba(255,0,112,0.3)]'>
+                    <div key={item.title} className='flex items-center bg-[#fff] w-[90%] lg:w-[834px] h-full py-4 lg:py-0 px-2 lg:px-[24px]  rounded-[20px] shadow-[0px_4px_20px_5px_rgba(255,0,112,0.3)]'>
                         <div className='flex items-center w-[50px] h-full ml-[10px] lg:ml-[20px] mr-[5px] lg:mr-[45px]'>
-                            <label className='font-staatliches font-[400] text-[52px] lg:text-[96px] text-[#FF0070] text-center leading-[120px]'>{item.num}</label>
+                            <label className='font-staatliches font-[400] text-[52px] lg:text-[96px] text-[#FF0070] text-center leading-[40px] lg:leading-[120px]'>{item.num}</label>
                         </div>
-                        <div className='flex items-center w-full lg:w-[680px] py-1 lg:py-5'>
+                        <div className='flex items-center w-full lg:w-[680px]  lg:py-5'>
                             <label className='font-[400] text-[14px] lg:text-[24px] text-[#000000]  leading-[19px] lg:leading-[38px] '>{item.title}</label>
                         </div>
                     </div>
@@ -52,11 +52,11 @@ function Content() {
                 </div>
                 <div className='flex flex-col items-center lg:items-start lg:grid lg:grid-cols-1 gap-y-[25px] mb-[90px] lg:mb-[131px]'>
                 {content02.map((item) => (
-                    <div key={item.title} className='flex items-center bg-[#fff] w-full lg:w-[834px] h-full px-2 lg:px-[24px]  rounded-[20px] shadow-[0px_4px_20px_5px_rgba(255,0,112,0.3)]'>
+                    <div key={item.title} className='flex items-center bg-[#fff] w-[90%] lg:w-[834px] h-full py-4 lg:py-0 px-2 lg:px-[24px]  rounded-[20px] shadow-[0px_4px_20px_5px_rgba(255,0,112,0.3)]'>
                         <div className='flex items-center w-[50px] h-full ml-[10px] lg:ml-[20px] mr-[5px] lg:mr-[45px]'>
-                            <label className='font-staatliches font-[400] text-[52px] lg:text-[96px] text-[#FF0070] text-center leading-[120px]'>{item.num}</label>
+                            <label className='font-staatliches font-[400] text-[52px] lg:text-[96px] text-[#FF0070] text-center leading-[40px] lg:leading-[120px]'>{item.num}</label>
                         </div>
-                        <div className='flex items-center w-full lg:w-[680px] py-1 lg:py-5'>
+                        <div className='flex items-center w-full lg:w-[680px]  lg:py-5'>
                             <label className='font-[400] text-[14px] lg:text-[24px] text-[#000000]  leading-[19px] lg:leading-[38px] '>{item.title}</label>
                         </div>
                     </div>

@@ -44,7 +44,7 @@ function Header() {
               ที่มีประสบการณ์ในวงการคลินิกความงาม ใน <span className='text-[#FF0070]'>12 สาขารางวัล</span>
             </p>
           </div>
-          <div className='flex flex-col items-center px-6 lg:items-start lg:grid lg:grid-cols-2 lg:gap-x-[35px] gap-y-[20px] lg:gap-y-[50px] my-[75px] lg:my-[120px] '>
+          <div className='hidden md:flex flex-col items-center px-6 lg:items-start lg:grid lg:grid-cols-2 lg:gap-x-[35px] gap-y-[20px] lg:gap-y-[50px] my-[75px] lg:my-[120px] '>
             {cup.map((item) => (
               <div key={item.title} className='flex items-center bg-[#fff] w-full lg:w-[387px] h-full px-5 py-6 lg:py-4 rounded-[20px] hover:scale-110 transition-all duration-500 hover:shadow-[#FF0070]/20 hover:shadow-2xl'>
                 <div className='flex items-center h-full pr-[12px]'>
@@ -55,6 +55,21 @@ function Header() {
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className='flex md:hidden flex-col items-center px-6 gap-y-[20px] my-[75px] overflow-x-scroll h-[460px] w-full'>
+            <span className=' font-light text-base text-gray-500'>{'เลื่อนลงเพื่อดูทั้งหมด'}</span>
+            {cup.map((item) => (
+              <div key={item.title} className='flex items-center bg-[#fff] w-72 h-full px-5 py-6 lg:py-4 rounded-[20px] hover:scale-110 transition-all duration-500 hover:shadow-[#FF0070]/20 hover:shadow-2xl'>
+                <div className='flex items-center h-full pr-[12px]'>
+                  <Image className='object-cover w-[24px] h-[24px] lg:w-[38px] lg:h-[38px]' alt='Cup' src={Cup} quality={100} priority={true} width={38} height={38} />
+                </div>
+                <div className='flex items-center w-full lg:w-[265px]'>
+                  <label className='font-[400] text-[20px] lg:text-[24px] text-[#000000] leading-[24px] lg:leading-[38px]'>{item.title}</label>
+                </div>
+              </div>
+            ))}
+
           </div>
         </div>
       </div>

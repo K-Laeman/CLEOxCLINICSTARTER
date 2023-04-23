@@ -32,11 +32,11 @@ function Content() {
                             {content01.map((item, index) => (
                                 <div key={item.title} className='relative flex items-center bg-[#fff] w-[90%] lg:w-[834px] h-full py-4 lg:py-0 px-2 lg:px-[24px]  rounded-[20px] shadow-[0px_4px_20px_5px_rgba(255,0,112,0.3)]'>
 
-                                    {index !== content01.length - 1 ?
+                                    {/* {index !== content01.length - 1 ?
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="absolute -bottom-11 lg:-bottom-16 left-1/2 -translate-x-1/2 z-10 w-12 h-12 lg:w-20 lg:h-20 stroke-[#FF0070]">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                                         </svg> : null
-                                    }
+                                    } */}
 
 
                                     <div className='flex items-center w-[50px] h-full ml-[10px] lg:ml-[20px] mr-[5px] lg:mr-[45px]'>
@@ -51,23 +51,23 @@ function Content() {
                     </div>
                     <div className="flex flex-col items-center h-full">
                         <div className="flex flex-col items-center h-full">
-                            <label className='font-[400] text-[28px] lg:text-[48px] text-[#FF0070] text-center leading-[38px] lg:leading-[76px]'>ขั้นตอนการคัดเลือกและรับรางวัล</label>
+                            <label className='font-[400] text-[28px] lg:text-[48px] text-indigo-700 text-center leading-[38px] lg:leading-[76px]'>ขั้นตอนการคัดเลือกและรับรางวัล</label>
                         </div>
                         <div className='flex justify-center mt-[25px] mb-[37.5px] items-center'>
-                            <div className='flex w-[150px] border-[1px] border-solid border-[#FF0070]'></div>
-                            <div className='flex w-[17px] h-[17px] bg-[#FF0070] mx-[20.5px] rotate-45'></div>
-                            <div className='flex w-[150px] border-[1px] border-solid border-[#FF0070]'></div>
+                            <div className='flex w-[150px] border-[1px] border-solid border-indigo-700'></div>
+                            <div className='flex w-[17px] h-[17px] bg-indigo-700 mx-[20.5px] rotate-45'></div>
+                            <div className='flex w-[150px] border-[1px] border-solid border-indigo-700'></div>
                         </div>
                         <div className='flex flex-col items-center lg:items-start lg:grid lg:grid-cols-1 gap-y-[44px] lg:gap-y-[60px] mb-[90px] lg:mb-[131px]'>
                             {content02.map((item, index) => (
-                                <div key={item.title} className='relative flex items-center bg-[#fff] w-[90%] lg:w-[834px] h-full py-4 lg:py-0 px-2 lg:px-[24px]  rounded-[20px] shadow-[0px_4px_20px_5px_rgba(255,0,112,0.3)]'>
+                                <div key={item.title} className='relative flex items-center bg-[#fff] w-[90%] lg:w-[834px] h-full py-4 lg:py-0 px-2 lg:px-[24px]  rounded-[20px] shadow-[0px_4px_20px_5px_rgba(67,56,202,0.3)]'>
                                     {index !== content02.length - 1 ?
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="absolute -bottom-11 lg:-bottom-16 left-1/2 -translate-x-1/2 z-10 w-12 h-12 lg:w-20 lg:h-20 stroke-[#FF0070]">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="absolute -bottom-11 lg:-bottom-16 left-1/2 -translate-x-1/2 z-10 w-12 h-12 lg:w-20 lg:h-20 stroke-indigo-700">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                                         </svg> : null
                                     }
                                     <div className='flex items-center w-[50px] h-full ml-[10px] lg:ml-[20px] mr-[5px] lg:mr-[45px]'>
-                                        <label className='font-staatliches font-[400] text-[52px] lg:text-[96px] text-[#FF0070] text-center leading-[40px] lg:leading-[120px]'>{item.num}</label>
+                                        <label className='font-staatliches font-[400] text-[52px] lg:text-[96px] text-indigo-700 text-center leading-[40px] lg:leading-[120px]'>{item.num}</label>
                                     </div>
                                     <div className='flex items-center w-full lg:w-[680px]  lg:py-5'>
                                         <label className='font-[400] text-[18px] lg:text-[24px] text-[#000000]  leading-[26px] lg:leading-[38px] '>{item.title}</label>

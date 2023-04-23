@@ -1,5 +1,7 @@
 import Image from 'next/image'
-import LogoEvent from './Images/LogoEvent.png'
+
+import LogoCleo from './Images/LogoCleo.png'
+import LogoStartClinic from './Images/LogoStartClinic.png'
 import Cup from './Images/Cup.png'
 
 const cup = [
@@ -23,10 +25,14 @@ function Header() {
     <div className='bg-[#e8fffac7]' >
       <div className='max-w-7xl mx-auto px-5 opacity-[1.5]'>
         <div className='flex flex-col h-full items-center'>
-          <div className='flex justify-center items-center mt-[50px] lg:mt-[50px] mb-[40px]'>
-            <Image className='w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] object-cover' alt='LogoEvent' src={LogoEvent} width={350} height={350} quality={100} priority={true} />
+          <div className='flex justify-center items-center mt-[50px] lg:mt-[50px] mb-[40px] gap-6'>
+            <Image className='w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] object-cover' alt='LogoEvent' src={LogoCleo} width={350} height={350} quality={100} priority={true} />
+            <Image className='w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] object-cover' alt=' Logo' src={LogoStartClinic} width={350} height={350} quality={100} priority={true} />
           </div>
           <div className='flex flex-col items-center'>
+
+            <label className='font-staatliches font-[400] text-[40px] lg:text-[52px] text-[#FF0070] text-center leading-[50px] lg:leading-[60px]'>CLEO x <span className='text-indigo-700 font-staatliches font-[400] text-[40px] text-center leading-[50px] lg:leading-[60px] lg:text-[52px]'>CLINIC STARTER</span></label>
+            <label className='font-staatliches font-[400] text-[24px] lg:text-[32px] text-[#FF0070] text-center leading-[50px] lg:leading-[60px]'>introducing</label>
             <label className='font-staatliches font-[400] text-[40px] lg:text-[52px] text-[#FF0070] text-center leading-[50px] lg:leading-[60px]'>the Most trusted</label>
             <label className='font-staatliches font-[400] text-[40px] lg:text-[52px] text-[#FF0070] text-center leading-[50px] lg:leading-[60px]'>Beauty Clinics</label>
             <label className='font-staatliches font-[400] text-[40px] lg:text-[52px] text-[#FF0070] text-center leading-[50px] lg:leading-[60px]'>2023</label>

@@ -44,6 +44,7 @@ function Header() {
           </div>
           <div className='relative flex justify-center mb-[40px] backdrop-blur-3xl'>
             <p className='font-[400] text-[28px] lg:text-[32px] text-[#000000] text-center leading-[42px] lg:leading-[48px]'>
+              <br /> <span className='font-medium underline underline-offset-4'>การประกาศรางวัลแห่งปีให้กับ</span> <br /><br />
               สุดยอดคลินิกความงามที่ได้รับการคัดเลือกว่าน่าเชื่อถือ<br />
               คุณภาพยอดเยี่ยม ได้มาตรฐานที่ปลอดภัย<br />
               และดูแลโดยแพทย์ผู้เชี่ยวชาญ<br />
@@ -79,7 +80,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 
